@@ -110,3 +110,28 @@ body{
     color: var(--Darkgrayishblue);
     text-decoration: line-through;
 }
+
+@media (max-width: 700px) {
+
+    .main{
+        height: auto;
+    }
+    .container{
+        height: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+    }
+    .container img{
+        max-height: 700px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .button img{
+        width: 15px;
+    }
+  }
+
